@@ -11,6 +11,10 @@
 	<name>pet-clinic-data</name>
 	<description>creating module for spring-pet-clinic</description>
 
+	<properties>
+	<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
