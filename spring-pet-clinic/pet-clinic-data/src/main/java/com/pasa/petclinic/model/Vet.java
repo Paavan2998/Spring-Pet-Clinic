@@ -1,5 +1,5 @@
 package com.pasa.petclinic.model;
 
-public class Vet {
+public class Vet extends Person{
 
 }
