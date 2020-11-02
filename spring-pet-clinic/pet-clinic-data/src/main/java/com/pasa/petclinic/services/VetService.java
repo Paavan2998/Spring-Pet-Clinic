@@ -1,15 +1,10 @@
 package com.pasa.petclinic.services;
 
-import java.util.Set;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.pasa.petclinic.model.Vet;
 
-public interface VetService {
+public interface VetService extends JpaRepository<Vet, Long> {
 	
-	Vet findById(Long id);
-	
-	Vet save(Vet vet);
-	
-	Set<Vet> findAll();
 
 }
